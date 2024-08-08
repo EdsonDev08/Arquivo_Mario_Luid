@@ -13,5 +13,5 @@
 <br>
 <b><h2>Criação do Projeto Mario e Luigi: Aprendizados e Conquistas</h2></b>
 <br>
-<p>o emocionante projeto Mario e Luigi, utilizei minhas habilidades em HTML, CSS e JavaScript para criar uma experiência interativa e visualmente atraente. Este projeto não só me permitiu mergulhar profundamente no mundo do desenvolvimento web, mas também me proporcionou valiosos aprendizados que destacaram a importância da integração entre design e funcionalidade.</p>
+<p>O emocionante projeto Mario e Luigi, utilizei minhas habilidades em HTML, CSS e JavaScript para criar uma experiência interativa e visualmente atraente. Este projeto não só me permitiu mergulhar profundamente no mundo do desenvolvimento web, mas também me proporcionou valiosos aprendizados que destacaram a importância da integração entre design e funcionalidade.</p>
 
