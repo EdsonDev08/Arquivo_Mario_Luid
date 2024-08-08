@@ -3,5 +3,5 @@
 <br>
 
 <h3>Esse é um projeto feito usando a imaginação para demonstrar o conhecimento em Htmll e Css</h3>
-<img src="img/Mobile Mario.png"> <img src="img/Desktop Mario.png">
+<img src="https://github.com/EdsonDev08/Arquivo_Mario_Luid/blob/master/img/Imagem%20Completa%20Mario.png?raw=true"> 
 
