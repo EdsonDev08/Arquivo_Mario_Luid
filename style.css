@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(16, 8, 128);
+  color: aliceblue;
+}
+
+.logo--mario {
+  height: 200px;
+  margin-left: -50px;
+}
+
+.Botao--Entre--em--contato {
+  color: white;
+  background-color: #c51111;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.Botao--Entre--em--contato:hover{
+  color: #000000;
+  background-color: #02ff24;
+  height: 60px;
+  width: 220px;
+  
+  
+}
+
+
+
+
+.mario-e-luid {
+  height: 500px;
+}
+
+body {
+  height: 100vh;
+}
+
+.caixa--principal {
+  width: 40%;
+  color: white;
+}
+
+.caixa--video {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+
+video {
+ min-height: 100%;
+ min-width: 100%;
+ position: fixed;
+ top: 0;
+}
+
+.caixa--mae {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+  height: 100vh;
+}
+
+.mascara {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+
+  position: fixed;
+  top: 0;
+}
+
+
+.link--whatsapp img {
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px ;
+  margin: 30px;
+}
+
+.header a:hover{
+  color: #c51111;
+  font-size: 26px;
+  transition: 0.7s ease-in-out;
+}
+
+.header img {
+  height: 60px;
+  }
+
+
+.header a {
+color: white;
+text-decoration: none;
+}
+
+
+
+.formulario--fale--conosco{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  left: -300px;
+  padding: 20px;
+  gap: 20px ;
+  border-radius: 5px;
+  transition: left 1s ease-in-out;
+}
+
+
+input{
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 180, 176);
+  padding-left: 5px;
+  outline-color: #18d80f;
+}
+
+textarea{
+  height: 100px;
+  width: 270px;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 180, 176);
+  padding-left: 5px;
+  outline-color: #18d80f;
+}
+
+.Botao--formulario{
+  color: white;
+  background-color: #c51111;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+
+.mascara--formulario{
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+  transition: visibility 1s ease-in-out;
+
+}
+
+
+@media (max-width:750px){
+
+    p {
+      display:none;
+    }
+
+    .caixa--mae{
+      flex-direction: column;
+      padding: 10px;
+      justify-content: flex-start;
+    }
+    
+    .caixa--principal{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+
+    .mario-e-luid{
+      width: 80vw;
+      height: auto;
+      margin-bottom: 70px;
+    }
+
+    .logo--mario{
+      margin-left: 10px;
+    }
+
+    .header img {
+      display: none;
+      }
+
+      .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .Botao--Entre--em--contato{
+        margin-top: 60px;
+      }
+
+      .link--whatsapp img {
+        height: 40px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
